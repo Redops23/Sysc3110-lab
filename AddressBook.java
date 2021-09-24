@@ -32,6 +32,7 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
+        System.out.printlnn("Address");
         BuddyInfo bud= new BuddyInfo("Oliver Lu","ottawa",123456789);
         AddressBook ad = new AddressBook();
         ad.addBuddy(bud);
